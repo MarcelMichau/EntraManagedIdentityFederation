@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "identityapp1": {
+      "connectionInfo": "App registration: ms-id-playground-downstream-api, Tenant: Marcel Michau (marcelmichau.dev - Microsoft Entra ID)",
+      "type": "identityapp.default"
+    }
+  }
+}
