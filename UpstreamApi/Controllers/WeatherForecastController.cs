@@ -5,7 +5,7 @@ using Microsoft.Identity.Abstractions;
 
 namespace UpstreamApi.Controllers;
 
-[Authorize]
+[Authorize(Roles = "AuthorisedUser")]
 [ApiController]
 [Route("[controller]")]
 [RequiredScope(RequiredScopesConfigurationKey = "AzureAd:Scopes")]
